@@ -1320,7 +1320,7 @@ class mainCog(commands.Cog):
 					)
 			embed.add_field(
 					name="----- Special Thanks to. -----",
-					value= '```치킨지향, 오만낙타```'
+					value= '```치킨지향, 오만낙타 ```'
 					)
 			await ctx.send(embed=embed, tts=False)
 		else:
