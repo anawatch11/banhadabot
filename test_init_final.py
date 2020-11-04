@@ -230,7 +230,7 @@ def init():
 		basicSetting.append(inputData[1][15:])     #basicSetting[6] : voice채널 ID
 		basicSetting.append(inputData[2][14:])     #basicSetting[7] : text채널 ID
 		basicSetting.append(inputData[3][16:])     #basicSetting[8] : 사다리 채널 ID
-		basicSetting.append(inputData[13][14:])    #basicSetting[9] : !ㅂ 출력 수
+		basicSetting.append(inputData[13][14:])    #basicSetting[9] : !ㅂ 출력 수a
 		basicSetting.append(inputData[17][11:])    #basicSetting[10] : json 파일명
 		basicSetting.append(inputData[4][17:])     #basicSetting[11] : 정산 채널 ID
 		basicSetting.append(inputData[16][12:])    #basicSetting[12] : sheet 이름
@@ -1320,7 +1320,7 @@ class mainCog(commands.Cog):
 					)
 			embed.add_field(
 					name="----- Special Thanks to. -----",
-					value= '```총무, 옹님, 공부중, 꽃신, 별빛, 크마, D.H.Kim, K.H.Sim, 쿠쿠, 오브로드, D.H.Oh, Bit, 팥빵, 천려, 이파리, 도미, 일깡, B.Park```'
+					value= '```치킨지향, ```'
 					)
 			await ctx.send(embed=embed, tts=False)
 		else:
