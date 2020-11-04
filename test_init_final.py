@@ -1279,6 +1279,7 @@ class mainCog(commands.Cog):
 			if basicSetting[20] != "" :
 				setting_val += '아이템채널 : ' + self.bot.get_channel(int(basicSetting[20])).name + '\n'
 			setting_val += '보스젠알림시간1 : ' + basicSetting[1] + ' 분 전\n'
+			setting_val += '보스젠알림시간2 : ' + basicSetting[3] + ' 분 전\n'
 			setting_val += '보스멍확인시간1 : ' + basicSetting[2] + ' 분 후\n'
 			setting_val += '보스멍확인시간2 : ' + basicSetting[22] + ' 분 후\n'
 			if basicSetting[21] == "0":
